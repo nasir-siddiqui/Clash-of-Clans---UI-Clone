@@ -1,0 +1,304 @@
+* {
+    padding: 0;
+    margin: 0;
+
+}
+
+body {
+    font-family: sans-serif;
+    /* max-width: 100%; */
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+header {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background-color: #000;
+    width: 80%;
+    height: 60px;
+}
+
+h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-bottom: 20px;
+
+}
+
+.branding{
+    color: magenta;
+    text-transform: uppercase;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.btn{
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+
+    text-transform: uppercase;
+}
+.btn-blue{
+    background-color: #2d85f3;
+    color: #fff;
+}
+.btn-black{
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+.logo {
+    width: 10%;
+}
+
+.logo img {
+    width: 45px;
+    padding: 10px;
+}
+
+nav {
+    width: 90%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links ul {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.nav-links ul li {
+    list-style: none;
+}
+
+.nav-links ul li a {
+    color: #ffffff93;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.nav-links ul li a:hover {
+    color: #ffffff;
+}
+
+.nav-social {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.nav-social-img {
+    width: 30px;
+}
+
+.hero {
+    height: 90vh;
+    background-image: url(https://supercell.com/images/ae58a39e76410b4ae9c2bea65d4a584d/1281/hero_bg_clashofclans_.fae7c799.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-section {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-logo {
+    width: 300px;
+}
+
+
+.section-2 {
+    overflow: hidden;
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-around; */
+    padding: 60px 0;
+}
+
+
+.section-content p {
+    font-size: 15px;
+    line-height: 1.4em;
+    margin-bottom: 20px;
+}
+
+
+.section-img .r-img {
+    margin-left: -200px;
+    width: 800px;
+}
+
+.section-content {
+    padding: 60px;
+}
+
+.download-imgs {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    gap: 30px;
+}
+
+.download-imgs img {
+    width: 130px;
+}
+
+.section-news{
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.news-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+
+}
+
+.news-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* border: 1px solid black; */
+    margin: 10px;
+    padding: 10px;
+}
+
+.news-box img{
+    width: 550px;
+}
+
+
+
+
+.section-img .l-img {
+    margin-right: -200px;
+    width: 800px;
+}
+
+
+
+.social-icons i{
+    margin: 10px 5px;
+    font-size: 24px;
+}
+
+.section-2-social{
+    color: #fff;
+    background-image: url(https://supercell.com/images/58b140f4e7e9576dc00aa8e0435aecce/790/bg_gamesocial_clashofclans.6d3e064f.webp);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.videos{
+    height: 50vh;
+    background-color: #fff;
+}
+
+
+.join-us-section{
+
+    height: 200px;
+    display: flex;
+    justify-content: center;
+
+
+    align-items: flex-end;
+
+
+    background-image: linear-gradient(180deg, #245fc6 1%, #2887f0);
+    color: #fff;
+    overflow: visible;
+}
+.join-us-section .content{
+    padding: 40px;
+}
+
+.join-img img{
+    width: 300px;
+}
+
+footer{
+    padding: 60px;
+    background-color: #000;
+    color: #fff;
+}
+
+.footer1{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* footer i{
+    color: #fff;
+} */
+
+hr{
+   margin: 30px 0;
+    color: white;
+}
+
+.footer1, .footer2, .footer3{
+    margin: 30px 0;
+
+}
+.footer2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer2 ul li{
+    list-style: none;
+}
+
+.footer2 ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer3 .content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer3 .content img{
+    width: 70px;
+}
+p.copyright{
+    margin-top: 50px;
+    text-align: center;
+}
